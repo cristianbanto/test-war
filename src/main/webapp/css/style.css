@@ -1,0 +1,68 @@
+body {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    }
+    
+.language-bar {
+	max-width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 15px;
+	overflow: hidden;
+}
+
+.language-ul {
+	float: right;
+}
+
+.form-currency {
+    max-width: 600px;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.form-currency .form-control {
+    position: relative;
+    font-size: 16px;
+    height: auto;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.form-currency .form-control:focus {
+    z-index: 2;
+}
+
+.row {
+    margin-bottom: 10px;
+}
+
+.chosen-container {
+    width: 100% !important;
+    font-size: 16px;
+}
+
+.chosen-container .chosen-single {
+    padding: 10px;
+    height: 42px;
+    background: #fff none;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    border: 1px solid #ccc;
+}
+
+.chosen-container-active.chosen-with-drop .chosen-single {
+    background: #fff none;
+}
+
+.chosen-container-single .chosen-single div b {
+    background: url(chosen-sprite.png) no-repeat 4px 11px;
+}
+
+.chosen-container-active.chosen-with-drop .chosen-single div b{
+    background-position: -14px 11px
+}

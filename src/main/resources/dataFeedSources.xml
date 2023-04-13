@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFeedSources xmlns="http://finestmedia.ee/currencyconverter/generated"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://finestmedia.ee/currencyconverter/generated xsd/DataFeedSources.xsd">
+	<DataFeedSource>
+		<id>eestipank</id>
+		<displayName>Eesti Pank</displayName>
+		<enabled>true</enabled>
+		<url>http://statistika.eestipank.ee/Reports?type=curd&amp;format=xml&amp;lng=est&amp;print=off&amp;date1=</url>
+		<dateFormat>YYYY-MM-dd</dateFormat>
+	</DataFeedSource>
+	<DataFeedSource>
+		<id>leedupank</id>
+		<displayName>Leedu Pank</displayName>
+		<enabled>true</enabled>
+		<url>http://webservices.lb.lt/ExchangeRates/ExchangeRates.asmx/getExchangeRatesByDate?Date=</url>
+		<dateFormat>YYYY-MM-dd</dateFormat>
+	</DataFeedSource>
+</DataFeedSources>
